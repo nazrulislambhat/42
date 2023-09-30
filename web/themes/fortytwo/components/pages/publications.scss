@@ -1,0 +1,100 @@
+.publications-content {
+  padding: 2rem 4rem;
+  margin: 0px auto;
+  max-width: 1440px;
+  .views-row {
+    border-top: 2px solid rgb(109, 109, 109);
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    .views-field-field-coverimage {
+      .field-content {
+        .paragraph--type--publication-image {
+          width: 350px;
+          height: 250px;
+          display: block;
+          flex: none;
+          margin-right: 30px;
+          div {
+            img {
+              width: 350px;
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+    .views-field-field-contentbody {
+      .field-content {
+        .paragraph--type--publication {
+          .category {
+            margin-bottom: 1rem;
+            div {
+              a {
+                text-decoration: none;
+                color: rgb(44, 44, 44);
+                font-size: 0.7rem;
+              }
+            }
+          }
+          .title {
+            div {
+              font-size: 1rem;
+              text-decoration: underline;
+              color: rgb(96, 96, 237);
+              text-underline-offset: 0.3rem;
+              margin-bottom: 0.5rem;
+              cursor: pointer;
+            }
+          }
+          .author {
+            div {
+              font-size: 0.7rem;
+              color: rgb(44, 44, 44);
+              margin-bottom: 1rem;
+            }
+          }
+          .body {
+            div {
+              max-width: 90%;
+              font-size: 0.9rem;
+              color: rgb(44, 44, 44);
+              margin-bottom: 1rem;
+            }
+          }
+          .language {
+            div {
+              display: flex;
+              color: rgb(96, 96, 237);
+              gap: 0.5rem;
+              text-decoration: underline;
+              text-underline-offset: 0.2rem;
+              font-size: 0.8rem;
+              margin-bottom: 0.5rem;
+            }
+          }
+          .document {
+            div {
+              display: flex;
+              color: rgb(96, 96, 237);
+              gap: 0.5rem;
+              text-decoration: underline;
+              text-underline-offset: 0.2rem;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+    .views-field-field-publication-date {
+      .field-content {
+        min-width: 90px;
+      }
+    }
+
+    &:nth-child(odd) {
+      background-color: rgb(225, 225, 225);
+    }
+  }
+}

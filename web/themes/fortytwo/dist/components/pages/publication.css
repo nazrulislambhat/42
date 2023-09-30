@@ -1,0 +1,29 @@
+.publication-content {
+  padding: 2rem 4rem;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+
+.publication-content .views-row {
+  border-top: 2px solid rgb(109, 109, 109);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px;
+}
+
+.publication-content .views-row .views-field-field-cover-image .field-content .paragraph--type--publication-image {
+  width: 350px;
+  height: 250px;
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  margin-right: 20px;
+}
+
+.publication-content .views-row .views-field-field-cover-image .field-content .paragraph--type--publication-image div img {
+  width: 350px;
+  height: 250px;
+}
+/*# sourceMappingURL=../../maps/pages/publication.css.map */
