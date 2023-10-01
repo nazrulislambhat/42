@@ -110,6 +110,23 @@
   text-decoration: none;
   color: rgb(44, 44, 44);
   font-size: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.2rem;
+}
+
+.publications-content .views-row .views-field-field-contentbody .field-content .paragraph--type--publication .category div a::before {
+  content: "";
+  background-image: url("../../../images/send.png");
+  height: 10px;
+  width: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .publications-content .views-row .views-field-field-contentbody .field-content .paragraph--type--publication .title div {
@@ -171,7 +188,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.1rem;
+}
+
+.publications-content .views-row .views-field-field-publication-date::before {
+  content: "";
+  background-image: url("../../../images/send.png");
+  height: 10px;
+  width: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 0) and (max-width: 768px) {
