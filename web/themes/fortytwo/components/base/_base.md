@@ -7,7 +7,7 @@ Use base directory to generate Global CSS styles. Attach each css produced from 
 ```
 base:
   css:
-    base: 
+    base:
       /path/to/base/style.css
 ```
 
@@ -16,5 +16,5 @@ Attach the base library globally i nthe themename.info.yml file
 ```
 libraries:
   - core/normalize
-  - drupalastic/base
+  - fortytwo/base
 ```

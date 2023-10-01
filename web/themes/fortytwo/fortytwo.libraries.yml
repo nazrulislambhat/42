@@ -17,6 +17,10 @@ header:
     theme:
       dist/components/organisms/header.css: {}
 
+navigation:
+  css:
+    theme:
+      dist/components/organisms/navigation.css: {}
 publications:
   css:
     theme:

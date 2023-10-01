@@ -9,5 +9,5 @@
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs"
   },
-  "include": ["components/**/*.ts"]
+  "include": ["components/**/*.ts", "components/organisms/nav.js"]
 }

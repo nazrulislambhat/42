@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "BebasNue";
+
+  src: url("../../fonts//BebasNeue-Regular.woff2") format("woff2"), url("../../fonts/BebasNeue-Regular.woff") format("woff");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+.menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #011936;
+  margin: 0;
+  gap: 1rem;
+  padding: 2rem 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.menu-links__link {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.menu-links__link a {
+  text-decoration: none;
+  color: #d7ebba;
+}
+
+.menu-links__link a:hover {
+  text-decoration: underline;
+  color: white;
+  text-underline-offset: 0.4rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=../../maps/organisms/navigation.css.map */
