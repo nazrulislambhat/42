@@ -1,18 +1,8 @@
-@font-face {
-  font-family: "BebasNue";
-
-  src: url("../../fonts//BebasNeue-Regular.woff2") format("woff2"), url("../../fonts/BebasNeue-Regular.woff") format("woff");
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
 .publication-header {
   position: relative;
   margin-top: 1rem;
   text-align: center;
-  padding: 6rem 0px 0px 3rem;
+  padding: 3rem 0px 0px 3rem;
   margin: 4rem auto;
 }
 
